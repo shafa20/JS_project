@@ -1,0 +1,43 @@
+.employpage{
+  font-family: verdana;
+  font-size: 16px;
+  border: solid 2px #f1f1f1;
+}
+.employpage .display_table table{
+border:solid 1px #ccc;
+}
+.employpage .display_table td, 
+.employpage .display_table th{
+border-left:solid 1px #ccc;
+border-bottom:solid 1px #ccc;
+
+text-align:left;
+font-size:13px;
+}
+.employpage .display_table td:first-child, 
+.employpage .display_table th:first-child{
+border-left:none;
+}
+
+.employpage .display_table tr{
+border-bottom:solid 1px #ccc;
+}
+.employpage .display_table tr:last-child td{
+border-bottom:none;
+}
+
+
+.formdata th{
+background:#f1f1f1; 
+font-size:14px; 
+font-weight:bold;
+
+}
+.formdata .button{
+
+padding:5px 10px;
+font-size:20px;
+margin:25px 50px;
+
+color:#fff;
+}

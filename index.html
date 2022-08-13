@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Java script project by safa khan</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <div class="row employpage">
+    <div class="col-7">
+      <div class="formdata">
+        <form class="mx-5 p-3 mb-4 bg-success" onsubmit="event.preventDefault();" autocomplete="off">
+          <label>Name</label>
+          <input type="text" class="form-control empname" value="" placeholder="Employ Name" />
+
+          <label>Company</label>
+          <input type="text" class="form-control comp" value="" placeholder="Employ Company Name" />
+
+          <label>Designation</label>
+          <input type="text" class="form-control designation" value="" placeholder="Employ Designation" />
+  
+          <label>Mobile</label>
+          <input type="text" class="form-control mobile" value="" placeholder="Employ Mobile" />
+
+          <label>Joining Date</label>
+          <input type="text" class="form-control joind" value="" placeholder="Employ Salary" />
+
+          <label>Salary</label>
+          <input type="text" class="form-control empsalary" value="" placeholder="Employ Salary" />
+  
+          <div style="width: 100%">
+            <input type="submit" value="Submit" class="button  btn-primary" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="col-5">
+      <div class="table py-3 display_table bg-info">
+        <table class="list" id="employeeList">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Full Name</th>
+              <th>Company</th>
+              <th>Designation</th>
+              <th>Mobile</th>
+              <th>Joining</th>
+              <th>Salary</th>
+              <th>Edit</th>
+            </tr>
+          </thead>
+          
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  
+</body>
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</html>
